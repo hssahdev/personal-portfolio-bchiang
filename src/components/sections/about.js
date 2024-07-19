@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript',
+    'React',
+    'Java',
+    'Springboot',
+    'Python',
+    'PySpark',
+    'AWS',
+    'LangChain',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +144,19 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Harshdeep (you can also call me Harsh) and I enjoy creating things
+              that are used by the masses. My interest in development started back in 2015 when I
+              decided to create a CLI-based poker game during a summer! Turns out, coding is a lot
+              like poker: sometimes you just have to bluff your way through the bugs.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              <a href="https://labs.engineering.asu.edu/labv2/">a research lab</a>,{' '}
+              <a href="https://shorturl.at/mvP27">a self founded start-up</a>,{' '}
+              <a href="https://www.expedia.com/">and a huge corporation</a>. My main focus these
+              days is building meanignful products and services that solve problems and improve
+              human lives.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -175,7 +173,7 @@ const About = () => {
               className="img"
               src="../../images/me.jpg"
               width={500}
-              quality={95}
+              quality={60}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />
