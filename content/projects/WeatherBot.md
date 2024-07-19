@@ -3,6 +3,8 @@ date: '2024-06-27'
 title: 'Weather and Stock Chatbot'
 github: 'https://github.com/hssahdev/weather-stock-chatbot'
 external: 'https://github.com/hssahdev/weather-stock-chatbot'
+ios: ''
+android: ''
 tech:
   - Python
   - Streamlit
